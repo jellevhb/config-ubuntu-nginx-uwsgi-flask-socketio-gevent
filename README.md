@@ -1,4 +1,4 @@
-:wrench: Ubuntu 18.04 + NGINX+ uWSGI + Flask + SocketIO + Gevent
+:wrench: Config for Ubuntu 18.04 + NGINX+ uWSGI + Flask + SocketIO + Gevent
 ===
 
 I had a hard time finding out on how to get SocketIO to work through NGINX and uWSGI. That's why I have put all needed config files here for future reference. Hopefully, it might help you too.
