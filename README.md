@@ -83,7 +83,11 @@ server {
 }
 ```
 
-## systemd service
+Both `location` sections use `uwsgi_pass` directly to the unix socket. It's important to add `include uwsgi_params` in both sections.
+
+## systemd service (optional)
+
+Making a systemd service is optional. You can start uWSGI the way you like.
 
 `/etc/systemd/system/myproject.service`
 ```
